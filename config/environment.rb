@@ -9,7 +9,7 @@ ActionMailer::Base.smtp_settings = {
   :address        => ENV['MAILGUN_SMTP_SERVER'],
   :user_name      => ENV['MAILGUN_SMTP_LOGIN'],
   :password       => ENV['MAILGUN_SMTP_PASSWORD'],
-  :domain         => 'arcane-bayou-18057.herokuapp.com/',
+  :domain         => 'powerful-bastion-48613.herokuapp.com/',
   :authentication => :plain,
 }
 ActionMailer::Base.delivery_method = :smtp
